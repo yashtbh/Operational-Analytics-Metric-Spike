@@ -1,84 +1,78 @@
 # Operational Analytics & Metric Spike Investigation
 
-### 📊 A dual case study using SQL to investigate operational efficiency and user behavior patterns.
+An end-to-end data analytics project showcasing **SQL** for deep-dive analysis and **Power BI** for creating interactive, executive-ready dashboards.
+
+---
+
+## 📊 Dashboards
+- **Operational Performance Dashboard**  
+- **Metric Spike Investigation Dashboard**
+
+---
+
+## 🎯 Purpose
+- **Operational Performance:** Monitor internal team efficiency and data quality.  
+- **Metric Spike Investigation:** Analyze external user behavior and product growth.  
 
 ---
 
 ## 🧠 Project Overview
+This project began as a deep-dive **SQL analysis** into two real-world business scenarios: operational efficiency and user engagement.  
+After extracting key insights using complex SQL queries, the project was elevated into a full-fledged **Business Intelligence solution** by developing two interactive dashboards in **Power BI**.  
 
-This project presents two real-world case studies aimed at analyzing operational performance and user engagement trends. Both analyses were performed using SQL and supported by visualizations created in Excel and Canva.
+This demonstrates a complete workflow from **raw data processing → dynamic, actionable reporting**.
 
 **Prepared by:** Yash Singh  
-**Tech Stack:** MySQL, Excel, Canva, CSV Datasets
+
+---
+
+## 🧰 Tech Stack
+
+| Tool              | Purpose |
+|-------------------|---------|
+| **MySQL Workbench** | Database creation, data import, and complex SQL querying. |
+| **Power BI**       | Data modeling, creating DAX measures, and developing interactive dashboards. |
 
 ---
 
 ## 📁 Case Studies
 
-### ✅ Case Study 1: **Job Data Analysis**
+### ✅ Case Study 1: Job Data Analysis
 **Objective:** Assess reviewer throughput and operational efficiency.
+- Analyzed job review data over time.  
+- Identified **peak reviewer activity** on *11/28/2020*.  
+- Used **7-day rolling averages** for smooth trend visualization.  
+- Detected **duplicate entries** indicating data quality issues.  
+- Performed **language share analysis**, with *Persian being the largest segment (37.5%)*.  
 
-- Analyzed job review data over time.
-- Identified peak reviewer activity (e.g., 11/28/2020).
-- Used 7-day rolling averages for smooth trend visualization.
-- Detected duplicate entries indicating data quality issues.
-- Performed language share analysis to optimize reviewer allocation.
-
-### ✅ Case Study 2: **Metric Spike Investigation**
+### ✅ Case Study 2: Metric Spike Investigation
 **Objective:** Uncover patterns in user engagement, growth, and retention.
-
-- Spotted user engagement spikes (notably on 2014-07-27).
-- Tracked user growth peaks (e.g., 2014-08 saw 1,031 new users).
-- Conducted retention analysis revealing drop-offs after week 1.
-- Analyzed engagement by device (MacBook Pro was the top device).
-- Studied email engagement actions (clickthroughs, opens, digests).
-
----
-
-## 🧰 Tools & Technologies Used
-
-| Tool             | Purpose                                  |
-|------------------|------------------------------------------|
-| MySQL Workbench  | Database creation, SQL querying          |
-| Excel            | Data visualization (charts, graphs)      |
-| Canva            | Presentation design                      |
-| CSV Datasets     | Raw data source for analysis             |
-| Google Drive     | Report hosting and sharing               |
+- Spotted a **significant engagement spike** on *2014-07-27*.  
+- Tracked user growth, with *August 2014 seeing the highest growth at 1,031 new users*.  
+- Conducted **retention analysis**, revealing **drop-offs after week 1**.  
+- Analyzed engagement by device, with *MacBook Pro being the top device*.  
+- Studied email engagement, with *sent_weekly_digest being the top action*.  
 
 ---
 
 ## 🔍 Analytical Approach
-
-1. **Understanding the Business Problem**  
-   Defined KPIs such as throughput, user retention, engagement.
-
-2. **Data Exploration**  
-   Explored relationships among job and user data tables.
-
-3. **SQL Querying**  
-   Used advanced SQL (CTEs, window functions, aggregations).
-
-4. **Insight Extraction**  
-   Focused on operational metrics, cohort behaviors, and engagement triggers.
-
-5. **Visualization**  
-   Built Excel charts and final report design using Canva.
+1. **Business Understanding:** Defined key KPIs for operational throughput and user engagement.  
+2. **Data Exploration:** Studied table structures and relationships in MySQL.  
+3. **SQL Querying:** Used advanced SQL (CTEs, window functions, aggregations) to extract initial insights.  
+4. **Data Modeling:** Established relationships between tables within Power BI for efficient analysis.  
+5. **Dashboard Development:** Created DAX measures and built two separate, interactive dashboards in Power BI.  
 
 ---
 
 ## 📝 Key Takeaways
-
-- **Operational Insight:** Rolling averages give better planning metrics than daily data.
-- **Data Quality:** Identified duplicate entries, suggesting validation needs.
-- **User Behavior:** Engagement spikes often aligned with updates or campaigns.
-- **Retention:** Drop-offs after week 1 signal the need for improved onboarding.
-- **Device & Email Trends:** Most engagement came via MacBook Pro users and weekly digest emails.
+- **Operational Insight:** Rolling averages provide more reliable metrics than volatile daily data.  
+- **Data Quality:** Duplicate entries highlight the need for better validation processes.  
+- **User Behavior:** Engagement spikes often align with product updates or marketing campaigns.  
+- **Retention:** Drop-offs after week 1 indicate the need for improved onboarding.  
+- **Audience Segmentation:** Engagement mainly from *MacBook Pro users* and *weekly digest emails* → clear targets for marketing & UX.  
 
 ---
 
 ## 📃 License
-
-This project is open for educational and portfolio use. Please credit the author if reused or shared.
-
----
-
+This project is open for educational and portfolio use.  
+Please credit the author if reused or shared.  
