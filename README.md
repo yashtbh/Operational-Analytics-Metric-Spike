@@ -72,7 +72,12 @@ This demonstrates a complete workflow from **raw data processing → dynamic, ac
 - **Audience Segmentation:** Engagement mainly from *MacBook Pro users* and *weekly digest emails* → clear targets for marketing & UX.  
 
 ---
+## 📊 Dashboard Preview
+![Project Dashboard_page-0001](https://github.com/user-attachments/assets/bb14f6e7-acad-4bc6-be0a-de195abea365)
 
+![Project Dashboard_page-0002](https://github.com/user-attachments/assets/e3b65aa4-2bbb-4bc5-b356-3cfbc804de02)
+
+---
 ## 📃 License
 This project is open for educational and portfolio use.  
 Please credit the author if reused or shared.  
